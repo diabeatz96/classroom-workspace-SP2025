@@ -16,6 +16,8 @@ int main() {
      *    - Used for counting, indexing, and other operations involving integers.
      *    - Example: 
      */
+
+
     int age = 25; 
     int score = 95; 
     cout << "Age: " << age << endl;
@@ -66,5 +68,12 @@ int main() {
     cout << "Name: " << name << endl;
     cout << "City: " << city << endl;
 
+
+    string profName = "Adam Kostandy";
+    cout << profName;
+
+    cin >> profName;
+
+    cout << profName;
     return 0;
 }

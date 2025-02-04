@@ -16,10 +16,10 @@ int main() {
      *     - 'endl': Inserts a newline character and flushes the output buffer.
      * 
      */
-    cout << "Hello, world!" << endl; 
-    cout << "Hello, " << "world!" << endl; 
-    cout << 5 + 3 << endl; 
-
+    cout << "Hello, world!" << endl;
+    cout <<"Anything you want that is not insane \t yooooo";
+    cout<<"deku and luffy"<< endl;
+    cout << "Toys";
     /* 
      * Variables
      * This section demonstrates the concept of variables in C++. 
@@ -32,11 +32,16 @@ int main() {
      * The value of a variable can be assigned during declaration or later in the program.
      */
     
-    int age = 25; 
+    int age;
+    age = 1000;
+    age = 10;
     cout << "My age is: " << age << endl; 
     age = 30; 
     cout << "My new age is: " << age << endl; 
-
+    int number;
+    number = 500;
+    cout << "My number is : " << (number + number) * number << endl;
+    
     /* 
      * cin
      * This section demonstrates how to get input from the user using the 'cin' object.
@@ -49,5 +54,10 @@ int main() {
     cin >> userAge; 
     cout << "Your age is: " << userAge << endl; 
 
+
+
+int money;
+money = 50;
+cout << "The amount of moeny I have is" << money << endl;
     return 0;
 }
