@@ -18,5 +18,7 @@ int main() {
   cout << "This line contains a tab: \t now my selection is tabbed" << endl; // \t lets us create a tab.
   cout << "This line contains a newline within the string: \n" << endl; // \n will do the same thing as endl.
 
+  cout << "Hello there!" << endl;
+  
   return 0; // Indicate successful program execution
 }
