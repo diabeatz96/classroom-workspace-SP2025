@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    /*
+    /*/
      * If Statement Assignment
      *
      * Instructions:
@@ -24,6 +24,20 @@ int main() {
      */
 
     // Your code goes here
+
+
+
+int number;
+cout << "Enter number here: ";
+cin number;
+if (nu)
+
+
+
+
+
+
+
 
     return 0;
 }

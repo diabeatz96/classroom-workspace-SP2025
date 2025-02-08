@@ -8,7 +8,7 @@ int main() {
     // Demonstrate setw() - set field width
     int number = 123;
     cout << "Number (default): " << number << endl; 
-    cout << "Number (width 10): " << setw(10) << number << endl; 
+    cout << "Number (width 10): " << setw(20) << number << endl; 
 
     // Demonstrate setfill() - set fill character
     cout << setfill('*') << "Number (width 10): " << setw(10) << number << endl; 
