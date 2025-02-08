@@ -44,6 +44,14 @@ int main() {
     cout << "Integer Division: " << num1 << " / " << num2 << " = " << quotient << endl; 
 
     // Modulus (remainder)
+    /*
+        100
+        ---
+        10
+
+        
+    
+    */
     int remainder = num1 % num2;
     cout << "Modulus: " << num1 << " % " << num2 << " = " << remainder << endl;
 

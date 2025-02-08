@@ -18,5 +18,27 @@ int main() {
 
     // Your code here
 
+
+
+
+
+
+	double name = 34.978;
+	cout << "Price: " << name << fixed << setprecision(4) << endl;
+    
+    double names = 34.978;
+	cout << "Price: " << names << fixed << setprecision(4) << endl;
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
