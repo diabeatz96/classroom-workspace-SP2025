@@ -44,33 +44,19 @@ using namespace std;
 
 int main() {
 
-  // Example demonstrating some of the concepts:
+  // make two variables string password and username
+  // make an if statement so password AND (&&) username and write cout << "Username and pass correct"
 
-  string firstName;
-  string lastName;
-  int age;
+string password = "Aiden";
+string username = "Adem";
+                      // && , ||
+if ( username == "Adam" || password == "Aiden") {
+    cout << username << " " << password;
+} else {
+  cout << "The passwords are wrong";
+}
 
-  cout << "Enter your first name: ";
-  cin >> firstName;
 
-  cout << "Enter your last name: ";
-  cin >> lastName;
-
-  cout << "Enter your age: ";
-  cin >> age;
-
-  cout << "Hello, " << firstName << " " << lastName << "!" << endl;
-
-  // && is the logical AND operator
-  // || is the logical OR operator
-  // ! is the logical NOT operator
-  bool isStudent = true;
-
-  if (age >= 18) {
-    cout << "You are old enough to vote." << endl;
-  } else {
-    cout << "You are not old enough to vote." << endl;
-  }
 
   return 0;
 }

@@ -21,7 +21,19 @@ int main() {
   // https://cplusplus.com/reference/cstdlib/rand/
   
   srand(time(0)); 
+  randomAnswer = rand() % 8 + 1;
+
+  switch(randomAnswer){
+
+  }
+  string questionAsked;
+
+  getline(cin, questionAsked);
   
+  // cin >> questionAsked;
+
+  cout << questionAsked;
+
   // https://cplusplus.com/reference/string/string/getline/
   // https://cplusplus.com/reference/iostream/cin/
   // https://cplusplus.com/reference/iostream/cout/
