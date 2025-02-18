@@ -23,43 +23,35 @@ e) Check the value of isEmployed and print an appropriate message (e.g., "Employ
 
 /*
 
-Exercise: Calculate the Median
-
 Objective:
 
-Write a C++ program that calculates and displays the median of a given set of numbers.
+Write a C++ program that calculates and displays the average of five numbers entered by the user.
 
 Instructions:
 
 Input:
 
-Ask the user to enter the number of elements in the set (e.g., 5).
-Create an array to store the input numbers.
-Allow the user to input the numbers one by one.
-Sort the Array:
+Prompt the user to enter five numbers one by one.
+Store each number in a separate variable (e.g., num1, num2, num3, num4, num5).
+Calculate the Average:
 
-Implement a sorting algorithm (e.g., Bubble Sort, Selection Sort, or Insertion Sort) to arrange the numbers in ascending order.
-Calculate the Median:
-
-Determine the median of the sorted array.
-If the number of elements is odd, the median is the middle element of the array.
-If the number of elements is even, the median is the average of the two middle elements.
+Calculate the sum of the five numbers.
+Divide the sum by 5.
 Output:
 
-Display the calculated median to the console.
+Display the calculated average to the console.
 Example:
 
 Input:
 
-Enter the number of elements: 5
-Enter element 1: 7
-Enter element 2: 3
-Enter element 3: 9
-Enter element 4: 1
-Enter element 5: 5
+Enter number 1: 7
+Enter number 2: 3
+Enter number 3: 9
+Enter number 4: 1
+Enter number 5: 5
 Output:
 
-The median of the set is: 5
+The average of the set is: 5
 
 */
 
