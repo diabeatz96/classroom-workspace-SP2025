@@ -83,6 +83,7 @@ int main() {
     bool result = true || false && true; // true || (false && true) = true || false = true
     cout << "Result: " << result << endl; // Output: Result: 1 (true)
 
+    bool numResult = 10 > 15 || (10 < 100 && 10 < 3);
     // Topics: Boolean operators, operator precedence (&& before ||)
 
     // 8. Comparison Operators and Ranges
