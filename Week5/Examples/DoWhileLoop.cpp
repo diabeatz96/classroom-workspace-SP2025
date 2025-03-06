@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     const double PI = 3.14159;
+    const int MAX_TEMPERATURE = 10;
 
     int choice;
 
