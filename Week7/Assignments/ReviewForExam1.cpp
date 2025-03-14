@@ -7,6 +7,20 @@ using namespace std;
 
 int main() {
 
+    int limit = 15;
+    int count = 0;
+    int step = 3;
+    while (count < limit) {
+        cout << count << " ";
+        count += step;
+        if (count % 2 == 0) {
+            step--;
+        } else {
+          step++;
+        }
+    }
+    cout << endl;
+ 
     // A) Output Tracing: Loop and Arithmetic
     /*
     What is the output of the following code?
@@ -19,6 +33,8 @@ int main() {
         while (count < limit) {
             cout << count << " ";
             count += step;
+            // 10 
+            // 
             if (count % 2 == 0) {
                 step--;
             } else {
@@ -35,6 +51,7 @@ int main() {
     // B) Output Tracing: Boolean Logic and Conditionals
     /*
     What is the output of the following code?
+
     #include <iostream>
     using namespace std;
     int main() {
@@ -49,7 +66,7 @@ int main() {
         } else if (x < 5) {
             x = x + y;
         }
-        cout << "x: " << x << " flag: " << (flag ? "true" : "false") << endl;
+        cout << "x: " << x << " flag: " << (flag) << endl;
         if (!flag && x * 2 == 8 || x + y == 10) {
             cout << "Result 1";
         } else {
