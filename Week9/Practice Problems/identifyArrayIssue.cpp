@@ -4,7 +4,7 @@ using namespace std;
 
 // Function to print an array of strings
 void printAnimeList(const string animeList[], int size) {
-    for (int i = 0; i <= size; ++i) {
+    for (int i = 0; i < size; ++i) {
         cout << animeList[i] << endl;
     }
 }
@@ -22,7 +22,7 @@ int main() {
     string input;
 
     cout << "Enter " << MAX_ANIME << " anime names:" << endl;
-    for (int i = 1; i <= MAX_ANIME; ++i) {
+    for (int i = 0; i < MAX_ANIME; ++i) {
         cout << "Anime " << i << ": ";
         getline(cin, animeNames[i]); 
     }
@@ -42,10 +42,10 @@ int main() {
     printAnimeList(animeNames, MAX_ANIME); 
     
     string animeNames2[3] = {"Attack on Titan", "Fullmetal Alchemist", "Demon Slayer"};
-    printAnimeList(animeNames2, 5); 
+    printAnimeList(animeNames2, 3); 
     
     int arr[3] = {1, 2, 3};
-    cout << arr[3] << endl; 
+    cout << arr[2] << endl; 
     
 
     cout << animeNames[2] << endl; 
